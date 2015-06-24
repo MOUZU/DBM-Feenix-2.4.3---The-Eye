@@ -1,6 +1,10 @@
 #DBM Feenix 2.4.3 - The Eye
 I worked on adjusting the DBM Timers for Feenix 2.4.3 Archangel Server in my time playing on there, since I've stopped doing so there will most likely be not that much of a progress from now on but feel free to keep working on my code or at least report Issues here on GitHub (if you support enough Material for me to fix things without playing myself I might do that).
 
+<br \>
+<a href="https://github.com/MOUZU/DBM-Feenix-2.4.3---The-Eye/releases">Download latest Release</a><br \>
+<a href="http://www.wow-one.com/forum/topic/94594-243-dbm-adjusted-for-feenix/">WOW-ONE.com Forum Thread</a>
+
 #Changelist
 For people who aren't into coding and doesn't want to check the Changes in Detail I'll list here the major changes made prior to this first GitHub upload:
 
