@@ -1,4 +1,4 @@
-﻿if GetLocale() == "deDE" then
+if GetLocale() == "deDE" then
 	DBM_TEMPEST_KEEP	= "Festung der Stürme";
 	
 	-- Void Reaver
@@ -39,7 +39,7 @@
 	DBM_SOLARIAN_ANNOUNCE_WRATH				= "*** Zorn auf >%s< ***";
 	DBM_SOLARIAN_ANNOUNCE_SPLIT				= "*** Adds kommen ***";
 	DBM_SOLARIAN_ANNOUNCE_PRIESTS_SOON		= "*** Priester & Solarian in 5 Sek ***";
-	DBM_SOLARIAN_ANNOUNCE_PRIESTS_NOW		= "*** Priester & Solarian ***";
+	DBM_SOLARIAN_ANNOUNCE_PRIESTS_NOW		= "*** Priester & Solarian bald ***";
 	DBM_SOLARIAN_ANNOUNCE_AGENTS_NOW		= "*** Agenten ***";
 	DBM_SOLARIAN_ANNOUNCE_SPLIT_SOON		= "*** Spalten in 5 Sekunden ***";
 	DBM_SOLARIAN_ANNOUNCE_ENRAGE_PHASE		= "*** Voidwalker Phase ***";

@@ -39,7 +39,7 @@ DBM_SOLARIAN_SPECWARN_WRATH				= "Wrath on you!";
 DBM_SOLARIAN_ANNOUNCE_WRATH				= "*** Wrath on >%s< ***";
 DBM_SOLARIAN_ANNOUNCE_SPLIT				= "*** Adds incoming ***";
 DBM_SOLARIAN_ANNOUNCE_PRIESTS_SOON		= "*** Priests & Solarian in 5 sec ***";
-DBM_SOLARIAN_ANNOUNCE_PRIESTS_NOW		= "*** Priests & Solarian spawned ***";
+DBM_SOLARIAN_ANNOUNCE_PRIESTS_NOW		= "*** Priests & Solarian soon ***";
 DBM_SOLARIAN_ANNOUNCE_AGENTS_NOW		= "*** Agents spawned ***";
 DBM_SOLARIAN_ANNOUNCE_SPLIT_SOON		= "*** Split in 5 seconds ***";
 DBM_SOLARIAN_ANNOUNCE_ENRAGE_PHASE		= "*** Voidwalker Phase ***";
@@ -85,7 +85,7 @@ DBM_KAEL_OPTION_ICONMC					= "Set icons on mind control targets";
 DBM_KAEL_OPTION_GRAVITY					= "Announce gravity lapse";
 
 DBM_KAEL_YELL_PHASE1					= "Energy. Power. My people are addicted to it... a dependence made manifest after the Sunwell was destroyed. Welcome... to the future. A pity you are too late to stop it. No one can stop me now! Selama ashal'anore!";
-DBM_KAEL_EMOTE_THALADRED_TARGET			= "sets eyes on ([^%s]+)!";
+DBM_KAEL_EMOTE_THALADRED_TARGET			= "sets his gaze on ([^%s]+)!";
 DBM_KAEL_YELL_PHASE1_SANGUINAR			= "You have persevered against some of my best advisors... but none can withstand the might of the Blood Hammer. Behold, Lord Sanguinar!";
 DBM_KAEL_YELL_PHASE1_CAPERNIAN			= "Capernian will see to it that your stay here is a short one.";
 DBM_KAEL_YELL_PHASE1_TELONICUS			= "Well done, you have proven worthy to test your skills against my master engineer, Telonicus.";

@@ -142,7 +142,10 @@ function Kael:OnEvent(event, arg1)
 	if event == "CHAT_MSG_MONSTER_EMOTE" and arg1 then
 		local _, _, target = arg1:find(DBM_KAEL_EMOTE_THALADRED_TARGET);
 		if target then
+            --print("DBM Dev found Gaze Target on "..target)
 			self:SendSync("ThalaTarget"..target);
+        else
+            --print("DBM Dev, Monster Emote triggered but Gaze was not found")
 		end
 	elseif event == "CHAT_MSG_MONSTER_YELL" then
 		if arg1 == DBM_KAEL_YELL_PHASE2 then
@@ -359,8 +362,8 @@ function Kael:OnSync(msg)
 			self:Announce(DBM_KAEL_WARN_PHASE5, 1);
 		end
 		gravityLapse = false;
-		self:ScheduleSelf(53, "GravityWarn");
-		self:StartStatusBarTimer(58, "Next Gravity Lapse", "Interface\\Icons\\Spell_Magic_FeatherFall");
+		self:ScheduleSelf(39, "GravityWarn");
+		self:StartStatusBarTimer(44, "Next Gravity Lapse", "Interface\\Icons\\Spell_Magic_FeatherFall");
 		
 	elseif msg == "CastFear" then
 		if self.Options.WarnFear then

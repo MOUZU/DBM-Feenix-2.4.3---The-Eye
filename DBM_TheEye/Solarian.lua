@@ -1,7 +1,7 @@
 local Solarian = DBM:NewBossMod("Solarian", DBM_SOLARIAN_NAME, DBM_SOLARIAN_DESCRIPTION, DBM_TEMPEST_KEEP, DBM_EYE_TAB, 3);
 
-Solarian.Version	= "1.0";
-Solarian.Author		= "Tandanu";
+Solarian.Version	= "1.1";
+Solarian.Author		= "LYQ";
 
 local warnPhase = false;
 local split = false
@@ -123,14 +123,14 @@ function Solarian:OnSync(msg)
 		split = true
 		if self.Options.WarnPhase then
 			self:Announce(DBM_SOLARIAN_ANNOUNCE_SPLIT, 3);
-			self:ScheduleSelf(6, "AgentsNow");
+			self:ScheduleSelf(10, "AgentsNow");
 			self:ScheduleSelf(17, "PriestsWarn");
 			self:ScheduleSelf(22, "PriestsNow");
-			self:ScheduleSelf(85, "SplitWarn");
+			self:ScheduleSelf(75, "SplitWarn");
 		end		
-		self:StartStatusBarTimer(90, "Split", "Interface\\Icons\\Spell_Holy_SummonLightwell");
-		self:StartStatusBarTimer(22.5, "Priests & Solarian", "Interface\\Icons\\Spell_Holy_Renew");
-		self:StartStatusBarTimer(6.5, "Agents", "Interface\\Icons\\Spell_Holy_AuraMastery");
+		self:StartStatusBarTimer(79.5, "Split", "Interface\\Icons\\Spell_Holy_SummonLightwell");
+		self:StartStatusBarTimer(24.5, "Priests & Solarian", "Interface\\Icons\\Spell_Holy_Renew");
+		self:StartStatusBarTimer(10, "Agents", "Interface\\Icons\\Spell_Holy_AuraMastery");
 		self:ScheduleEvent(50, "ResetSplit")
 	end
 end
